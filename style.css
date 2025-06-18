@@ -30,3 +30,23 @@ li {
   text-decoration: line-through;
   color: green;
 }
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  box-shadow: 0 0 10px #333;
+}
+
+body.dark input, body.dark button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark li {
+  background-color: #2a2a2a;
+  color: white;
+}
