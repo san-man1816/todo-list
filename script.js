@@ -36,3 +36,6 @@ function loadTasks() {
 }
 
 window.onload = loadTasks;
+document.getElementById("toggleDarkMode").onclick = function () {
+  document.body.classList.toggle("dark");
+};
